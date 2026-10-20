@@ -2,7 +2,7 @@
 
 <img src="assets/scenario_flow.gif" width="100%" alt="Headset view of the T-bana platform scenario, followed by the in-VR safety survey">
 
-![Unity](https://img.shields.io/badge/Unity-2022.3-black) ![Quest 2](https://img.shields.io/badge/Meta-Quest%202-blue) ![C#](https://img.shields.io/badge/C%23-512BD4)
+![Unity](https://img.shields.io/badge/Unity-2022.3-black) ![Quest 2](https://img.shields.io/badge/Meta-Quest%202-blue) ![C#](https://img.shields.io/badge/C%23-512BD4) ![Design](https://img.shields.io/badge/design-within--subject%2016%20scenes-lightgrey) ![Participants](https://img.shields.io/badge/participants-7-lightgrey) ![Course](https://img.shields.io/badge/KTH-DM2350-1954a6)
 
 What makes a subway platform feel safe? We built 16 versions of a Stockholm T-bana platform in Unity and had seven people rate each one in a Meta Quest 2. The study tests four things: whether a child or an adult stands at the edge, whether the platform is crowded, whether a caregiver is there, and whether glass platform doors separate people from the tracks.
 
@@ -31,30 +31,36 @@ I created the scenarios in Unity (layout, avatar placement and the four switchab
 | Open feedback | Free text at the end: which factor mattered most, which scene felt least safe |
 | Analysis | Mean ratings per scene, descriptive comparison, simple themes from the comments. No statistical tests at n = 7 |
 
-| Child alone, no doors | Child with caregiver, glass doors |
-|---|---|
-| <img src="assets/platform_child_alone.jpg" alt="Child alone at the edge of an open platform"> | <img src="assets/platform_glass_doors.jpg" alt="Child and caregiver behind glass platform doors"> |
+<img src="assets/scenes.jpg" width="100%" alt="Two of the 16 scenes: a child alone at an open platform edge, and a child with a caregiver behind glass doors">
+
+Two of the 16 scenes. The other 14 combine the same four factors.
 
 ## Results
 
-Mean rating for *"The situation on the platform felt safe"* (5 = strongly agree). Values are read from the bar chart in the report, so treat them as ±0.1.
+<img src="assets/effects.png" width="100%" alt="Mean safety rating with and without each factor: glass doors 4.2 vs 2.4, crowd 3.5 vs 3.1, caregiver and actor no difference">
 
-| Crowd | Caregiver | Glass doors | Child | Adult |
-|---|---|---|---|---|
-| none | yes | yes | 4.6 | 4.0 |
-| none | yes | no | 2.6 | 2.6 |
-| none | no | yes | 4.2 | 4.3 |
-| none | no | no | 2.9 | 2.7 |
-| crowd | yes | yes | 4.2 | 4.2 |
-| crowd | yes | no | 2.2 | 2.0 |
-| crowd | no | yes | 4.0 | 4.3 |
-| crowd | no | no | **1.9** | 2.2 |
+Mean rating for *"The situation on the platform felt safe"* (5 = strongly agree), averaged over all other conditions.
 
-- **Glass doors were the biggest effect.** Averaged over the other factors, scenes with doors scored about 4.2 and scenes without about 2.4. Participants also named the doors as the most important factor in their comments.
+- **Glass doors were the biggest effect:** about 4.2 with doors and 2.4 without. Participants also named the doors as the most important factor in their comments.
 - **Crowds made it worse where there were no doors.** For the child, the average without doors fell from about 2.7 to 2.0 when the platform was crowded.
-- **The lowest rating** was a child at the edge of a crowded platform with no caregiver and no doors.
-- **Child versus adult and caregiver effects were small and not consistent across the three questions.** On the "someone is in a dangerous position" question the adult was sometimes rated higher than the child. We would need more participants to say more.
+- **The lowest rating** was a child at the edge of a crowded platform with no caregiver and no doors (about 1.9).
+- **A caregiver and the actor's age made no visible difference to the average** on this question. On "someone is in a dangerous position" the adult was sometimes rated worse than the child. We would need more participants to say more.
 - **Comments agreed with the numbers.** People described doors as reassuring, crowds as stressful because of less personal space, and an unsupervised child near the edge as uncomfortable.
+
+### All 16 scenes, three questions
+
+Original charts from the report. Blue is the child, red is the adult. Values are mean ratings from 1 to 5.
+
+<img src="assets/fig_safe.jpg" width="100%" alt="Mean ratings of: the situation on the platform felt safe">
+
+<details>
+<summary>Two more questions</summary>
+<br>
+<img src="assets/fig_danger.jpg" width="100%" alt="Mean ratings of: someone on the platform is in a dangerous position">
+<br>
+<img src="assets/fig_accidents.jpg" width="100%" alt="Mean ratings of: there are visible factors on the platform that can cause accidents">
+
+</details>
 
 ## Limitations
 
