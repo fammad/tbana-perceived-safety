@@ -2,7 +2,7 @@
 
 <img src="assets/scenario_flow.gif" width="100%" alt="Headset view of the T-bana platform scenario, followed by the in-VR safety survey">
 
-![Unity](https://img.shields.io/badge/Unity-2022.3-black) ![Quest 2](https://img.shields.io/badge/Meta-Quest%202-blue) ![C#](https://img.shields.io/badge/C%23-512BD4) ![Design](https://img.shields.io/badge/design-within--subject%2016%20scenes-lightgrey) ![Participants](https://img.shields.io/badge/participants-7-lightgrey) ![Course](https://img.shields.io/badge/KTH-DM2350-1954a6)
+![Unity](https://img.shields.io/badge/Unity-2022.3-black) ![Quest 2](https://img.shields.io/badge/Meta-Quest%202-blue) ![C#](https://img.shields.io/badge/C%23-512BD4)
 
 What makes a subway platform feel safe? We built 16 versions of a Stockholm T-bana platform in Unity and had seven people rate each one in a Meta Quest 2. The study tests four things: whether a child or an adult stands at the edge, whether the platform is crowded, whether a caregiver is there, and whether glass platform doors separate people from the tracks.
 
